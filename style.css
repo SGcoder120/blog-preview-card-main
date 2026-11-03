@@ -21,13 +21,15 @@ body {
     align-items: center;
     height: 100vh;
     gap: 25px;
+    margin: 0px;
+    padding: 0px;
 }
 
 p {
     font-size: 16px;
 }
 
-.center {
+.card {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -38,19 +40,41 @@ p {
     box-shadow: 10px 10px black;
 }
 
+.card h2 {
+    color: hsl(47, 88%, 63%);
+}
+
+.card .description {
+    color: hsl(0, 0%, 42%);
+}
+
 .starting-pic {
     width: 300px;
     border-radius: 10px;
 }
 
 .avatar {
-    width: 42px;
-    height: 42px;
+    width: 32px;
+    height: 32px;
 }
 
-.profile {
+.profile-row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     gap: 15px;
+}
+
+.profile-row p {
+    font-weight: bold;
+}
+
+.tag p {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
