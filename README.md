@@ -28,7 +28,7 @@ The card presents an article category, publication date, title, description, and
 
 ### Screenshot
 
-![Screenshot of the card](./assets/images/screenshot-2026-11-04-023008.png)
+![Screenshot of the card](./assets/images/image.png)
 
 ### Links
 
