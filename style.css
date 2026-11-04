@@ -40,10 +40,6 @@ p {
     box-shadow: 10px 10px black;
 }
 
-.card h2 {
-    color: hsl(47, 88%, 63%);
-}
-
 .card .description {
     color: hsl(0, 0%, 42%);
 }
@@ -71,7 +67,7 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    padding-top: 20%;
+    padding-top: 18%;
 }
 
 .profile-row p {
