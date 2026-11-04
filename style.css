@@ -34,7 +34,7 @@ p {
     flex-direction: column;
     background-color: white;
     width: 300px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     border: 1.5px solid black;
     box-shadow: 10px 10px black;
@@ -46,6 +46,14 @@ p {
 
 .card .description {
     color: hsl(0, 0%, 42%);
+}
+
+.card > p, .card > h2 {
+    height: 0px;
+}
+
+.card .date {
+    color: hsl(0, 0%, 7%);
 }
 
 .starting-pic {
@@ -61,9 +69,9 @@ p {
 .profile-row {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
     gap: 15px;
+    padding-top: 20%;
 }
 
 .profile-row p {
@@ -72,9 +80,8 @@ p {
 
 .tag p {
     background-color: hsl(47, 88%, 63%);
-    width: fit-content;
-    height: fit-content;
+    display: inline-block;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 6px 12px;
     border-radius: 5px;
 }
