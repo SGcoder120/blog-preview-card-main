@@ -48,6 +48,10 @@ p {
     height: 0px;
 }
 
+.card > h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
 .card .date {
     color: hsl(0, 0%, 7%);
 }
